@@ -29,7 +29,7 @@ const value = Object.values(student);
 
 // for
 const numbers = [33, 43, 53, 56, 65, 43]
-// numbers.forEach(num => console.log(num));
+numbers.forEach(num => console.log(num));
 numbers.map(num => num * 2);
 
 // for of on array like object

@@ -41,18 +41,33 @@ ES6
 
 */
 
-const x = 50;
-const y = 45;
-const obj = {
-    x: x,
-    y: y
-}
+// const x = 50;
+// const y = 45;
+// const obj = {
+//     x: x,
+//     y: y
+// }
 
-const name = 'Mostofa';
-const area = 'dhaka';
-const nobav ={
-    name: name,
-    area: area
-}
+// const name = 'Mostofa';
+// const area = 'dhaka';
+// const nobav ={
+//     name: name,
+//     area: area
+// }
 
-console.log(nobav);
+// console.log(nobav);
+
+const name = 'Hero';
+const age = 34;
+// const person = {name, age}; 
+// console.log(person)
+
+const adventurer = {
+     name: 'Alice',
+     cat: {name: 'Lucy'}
+     };
+const ratName = adventurer?.name;
+// console.log(ratName);
+
+const obj = {a:1};
+console.log(Object.keys(obj).length===0);
